@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Container } from "../Styles/Containers"
 
 const Stock = (props) => {
 
@@ -26,11 +27,11 @@ const Stock = (props) => {
 
     const loaded = () => {
         return(
-            <div className="container">
+            <Container>
                 <h1>{currentStock.name} ({currentStock.symbol})</h1>
                 <h2>{currentStock.lastPrice}</h2>
                 <h2>{currentStock.change}</h2>
-            </div>
+            </Container>  
         )
     }
 

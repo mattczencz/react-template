@@ -1,21 +1,15 @@
-import { Link } from "react-router-dom"
+import { Navbar, NavLogoText, NavItems, NavItem } from "../Styles/NavBars"
 
 const Nav = (props) => {
     return(
         <header>
-            <nav>
-                <div className="nav-logo">
-                    <Link to="/">uStocks</Link>
-                </div>
-                <div className="nav-items">
-                    <div className="nav-item">
-                        <Link to="/about">About</Link>
-                    </div>
-                    <div className="nav-item">
-                        <Link to="/stocks">Stocks</Link>
-                    </div>
-                </div>
-            </nav>
+            <Navbar type="dark">
+                <NavLogoText to="/">uStocks</NavLogoText>
+                <NavItems>  
+                    <NavItem to="/about">About</NavItem>
+                    <NavItem to="/stocks">Stocks</NavItem>
+                </NavItems>
+            </Navbar>
         </header>
     )
 }
