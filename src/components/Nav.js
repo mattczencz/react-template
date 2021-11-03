@@ -3,7 +3,7 @@ import { Navbar, NavLogoText, NavItems, NavItem } from "../Styles/NavBars"
 const Nav = (props) => {
     return(
         <header>
-            <Navbar type="dark">
+            <Navbar type="light">
                 <NavLogoText to="/">uStocks</NavLogoText>
                 <NavItems>  
                     <NavItem to="/about">About</NavItem>
