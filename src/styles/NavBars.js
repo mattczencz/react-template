@@ -1,30 +1,15 @@
 import { Link } from "react-router-dom"
 import styled from "styled-components"
+import { handleNavType } from "../js/nav-logic"
+import * as Color from '../js/colors'
 
-
-// Root Variables
-const mainBlack = '#040404'
-const mainWhite = '#fff'
-const lightShadow = '0px 2px 10px rgba(0,0,0,.2)'
-
-// Function to handle the changing of nav colors based on prop
-const handleNavType = type => {
-    switch(type.toLowerCase()){
-        case 'light':
-            return `background-color: ${mainWhite}; color: ${mainBlack};`;
-        case 'dark':
-            return `background-color: ${mainBlack}; color: ${mainWhite};`;
-        default:
-            return "background-color: #f9f9f9; color: #000;";
-    }
-}
 // Navigation Bars
 export const Navbar = styled.nav `
     display: flex;
     padding: 30px clamp(15px, 5%, 50px);
     flex-wrap: wrap;
-    box-shadow: ${lightShadow};
-    font-family: 'Roboto Mono', monospace;
+    box-shadow: ${Color.lightShadow};
+    font-family: 'Gothic A1', sans-serif;
     text-decoration: none;
     justify-content: space-between;
     align-items: center;

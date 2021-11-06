@@ -1,5 +1,9 @@
 /* Importing Google Fonts */
+/* Roboto: font-family: 'Roboto Mono', monospace; */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+/* Gothic: font-family: 'Gothic A1', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;400;700;900&display=swap');
+
 
 /* Default Reset */
 *{
