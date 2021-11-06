@@ -1,3 +1,17 @@
-# React Router Lab
+# React Template
 
-The goal of this project was to create a stock tracking app that used the React Router to render different pages / components.
+###### Author: Matt Czencz
+
+### Summary
+This is a library / template I am working on to make a projects more consistent and faster. This is meant to work a lot like other libraries, such as Bootstrap and Bulma, but with my own premade styling and some bells and whistles I can customize. Below you will find a list of components, their properties  and value pairs to get the styling you desire. 
+
+### Technologies Used
+<ul>
+    <li>ReactJS</li>
+    <li>Styled Components</li>
+    <li>React Router</li>
+</ul>
+
+
+# Components
+
