@@ -20,6 +20,10 @@ function App() {
         <Route path="/overview">
           <Overview/>
         </Route>
+        <Route path="/code" component={() => {
+          window.location.href = 'https://github.com/mattczencz/react-template';
+          return null;
+        }}/>
       </Switch>
     </>
   );

@@ -7,7 +7,7 @@ function Nav(props) {
             <S.NavItems>
                 <S.NavItem to="/overview">Components Overview</S.NavItem>
                 <S.NavItem to="/about">About</S.NavItem>
-                <S.NavItem to="https://github.com/mattczencz/react-template" target="_blank" rel="noopener noreferrer">View Code</S.NavItem>
+                <S.NavItem to="/code" target="_blank" rel="noopener noreferrer">View Code</S.NavItem>
             </S.NavItems>
         </S.Navbar>
     )
