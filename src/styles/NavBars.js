@@ -37,10 +37,16 @@ export const NavItems = styled.div `
 export const NavItem = styled(Link) `
     text-decoration: none;
     margin: 0 10px;
+    &:link{
+        color: inherit;
+    }
+    &:hover{
+        color: #473335;
+    }
     &:visited{
         color: inherit;
     }
     &:active {
-        color: grey;
+        color: #B0413E;
     }
 `
