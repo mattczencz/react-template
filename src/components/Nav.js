@@ -2,7 +2,7 @@ import * as S from '../styles/NavBars'
 
 function Nav(props) {
     return (
-        <S.Navbar type="dark">
+        <S.Navbar type="light">
             <S.NavLogoText to="/">React Template</S.NavLogoText>
             <S.NavItems>
                 <S.NavItem to="/overview">Components Overview</S.NavItem>

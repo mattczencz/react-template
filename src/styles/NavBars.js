@@ -13,6 +13,8 @@ export const Navbar = styled.nav `
     text-decoration: none;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 10;
 
     ${({type}) => handleNavType(type)};
 `
