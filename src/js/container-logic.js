@@ -30,3 +30,17 @@ export const handleFlexJustify = fj => {
             return 'initial';
     }
 }
+
+
+export const handleBgColor = bgColor => {
+    if (bgColor === undefined) {
+        return '#fff'
+    }
+
+    switch(bgColor){
+        case 'alt':
+            return '#f8f8f8';
+        default:
+            return '#fff';
+    }
+}

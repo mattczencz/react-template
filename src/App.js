@@ -2,15 +2,25 @@ import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import Nav from './components/Nav';
 import { Container } from './styles/Containers';
+import Home from './pages/Home';
+import About from './pages/About';
+import Overview from './pages/Overview';
 
 function App() {
   return (
     <>
       <Nav/>
-      <Container fj="evenly">
-        <p>Some Text</p>
-        <p>Some Text</p>
-      </Container>
+      <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
+        <Route path="/about">
+          <About/>
+        </Route>
+        <Route path="/overview">
+          <Overview/>
+        </Route>
+      </Switch>
     </>
   );
 }

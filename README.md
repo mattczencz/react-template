@@ -26,4 +26,11 @@ This is a library / template I am working on to make a projects more consistent 
 <u><strong>Navbar</strong></u><br>
 Property Name | Description | Values | Example
 | :---: | :---: | :---: | :---:
-<strong>type</strong>  | Allows you to set the navbar type. (i.e., "Light", "Dark") | "Light" <br> "Dark" | `<Navbar type="light">...`
+<strong>type</strong>  | Allows you to set the navbar type. | "Light" <br> "Dark" | `<Navbar type="light">...`
+
+#
+
+<u><strong>Container</strong></u><br>
+Property Name | Description | Values | Example
+| :---: | :---: | :---: | :---:
+<strong>fj</strong>  | Allows you to set the justify-content. | "Start" <br> "End" <br> "Center" <br> "Between" <br> "Around" <br> "Evenly" <br> "Stretch" <br> "Inherit" | `<Container fj="center">...`
